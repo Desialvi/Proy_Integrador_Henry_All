@@ -1,0 +1,11 @@
+const EMAIL = "desialvi@gmail.com"
+const PASSWORD = "a12345"
+
+const checkUser = async (email, password) => {
+    if (email == EMAIL && password == PASSWORD) return true
+    else throw Error("Login inválido")
+}
+
+module.exports = {
+    checkUser, 
+}
