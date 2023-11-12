@@ -1,0 +1,52 @@
+.Container {
+    background-image: url('./istockphoto-1035676256-612x612.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+ 
+    /* background-size:cover; */
+    display: flex;
+    
+    width:100%;
+    padding-top: 30px;
+    justify-content: center;
+    height: 100vh
+
+}
+
+.ContainerText{
+    position: absolute; 
+    top: 10 px; left: 50 px;
+  
+    
+    height: 40px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.ContainerText2 {
+     
+    /* background-size:cover; */
+    
+    top: 80 px; 
+  
+    justify-content: space-evenly;
+    
+    
+    
+
+}
+
+h1{
+    font-size: 44px;
+    color: blanchedalmond;
+}
+
+h2{
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
